@@ -1,0 +1,39 @@
+.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  .list {
+    float: left;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  .list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .list a:hover {
+    background-color: #111;
+  }
+  @media(min-width:900px){
+    .container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid yellow;
+    }
+  }
+.box{
+      width: 150px;
+      height: 150px;
+      border: 3px solid red;
+      padding-left: 5px;;
+  }

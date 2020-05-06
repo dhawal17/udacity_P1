@@ -1,0 +1,77 @@
+@import "index.css";
+@import "achieve.css"; 
+@import "certificate.css";  
+.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  .list {
+    float: left;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  .list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .list a:hover {
+    background-color: #111;
+  }
+  
+  @media(min-width:900px){
+      .container{
+      display: flex;
+      flex-direction: row;
+      border: 2px solid yellow;
+      }
+    }
+.box{
+        width: 150px;
+        height: 150px;
+        border: 3px solid red;
+        padding-left: 5px;;
+    }
+    @media(min-width:900px)
+    {
+         .grid-container {
+        display: grid;
+        width: 100vw;
+        margin:auto;
+        grid-template-rows: 100px 100px;
+        grid-template-columns:  repeat(3,100px);
+        grid-template-areas: 
+        "tl tr"
+        "bl br";
+      
+        grid-gap: 10px;
+  
+      }
+    }
+    
+      .item{
+            border: 1px solid red;
+            background: #F8FA9D;
+            border: 3px solid red;
+            }
+      .grid{
+        display: grid;
+        grid-template-rows: repeat(5,100px);
+        grid-gap: 10px;
+      }
+      #item1{
+        border: 1px solid red;
+        width: 300px;
+        background: #F8FA9D;
+        border: 3px solid red;
+        }
+       
